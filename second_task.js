@@ -68,7 +68,7 @@ if (!isNaN(a4)) {
     }
 } else alert("Вы ввели неверное значение");
 
-//fiveth task
+//fifth task
 alert("Пятое задание");
 
 function sum(num1, num2) {
