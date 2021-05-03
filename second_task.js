@@ -86,7 +86,7 @@ function mul(num1, num2) {
 function div(num1, num2) {
     return num1 / num2;
 }
-/*
+
 var a5 = parseInt(prompt("Введите первое число:"));
 var b5 = parseInt(prompt("Введите второе число:"));
 if (!isNaN(a5) && !isNaN(b5)) {
@@ -135,8 +135,8 @@ alert("Значение сравнения null >= 0:\n" + (null >= 0)); //пр�
 alert("Восьмое задание");
 
 function power(val, pow) {
-    if (val == 0) return 0;
-    else if (pow == 1) return 1;
+    if (val == 1) return 1;
+    else if (pow == 0) return 1;
     else if (pow < 0) return power(1 / val, pow * (-1));
     else return val * power(val, pow - 1);
 }
