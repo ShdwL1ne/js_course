@@ -86,7 +86,7 @@ function mul(num1, num2) {
 function div(num1, num2) {
     return num1 / num2;
 }
-/*
+
 var a5 = parseInt(prompt("Введите первое число:"));
 var b5 = parseInt(prompt("Введите второе число:"));
 if (!isNaN(a5) && !isNaN(b5)) {
