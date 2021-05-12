@@ -1,5 +1,5 @@
 //first task
-console.log('first task');
+console.log('first task:');
 
 function sep(num) {
     var number = {
@@ -19,11 +19,14 @@ function sep(num) {
 }
 
 var num = prompt('Введите трёхначное число: ');
-console.log(sep(num));
-
+if (!isNaN(num)) {
+    console.log(sep(num));
+}
+else console.log('Вы ввели не число!');
 
 //second_task
-console.log('second task');
+console.log(' ');
+console.log('second task:');
 
 function basketSum() {
     var t = 0;
