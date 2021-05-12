@@ -38,10 +38,12 @@ var DISCOUNT = 3;
 var basket = [['Hoodies', 'T-shirts', 'Jeans', 'Shoes', 'Underwear'], [3000, 1500, 2500, 4000, 1000], [3, 1, 2, 3, 5], [10, 25, 20, 5, 30]];
 
 var t = -1;
+var sum = 0;
 while (t++ < basket.length) {
     console.log(basket[NAME][t] + ':     ' + basket[AMOUNT][t] * countBasketPrice(basket[PRICE][t], basket[DISCOUNT][t]) + ' rub');
+    sum += basket[AMOUNT][t] * countBasketPrice(basket[PRICE][t], basket[DISCOUNT][t]);
 }
-
+console.log('Basket price:  ' + sum);
 
 //fourth_task
 console.log("fourth task".toUpperCase())
