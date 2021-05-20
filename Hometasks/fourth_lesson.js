@@ -86,4 +86,4 @@ var basket = [
     }
 ];
 
-console.log('Baket price:   ' + basketSum());
+console.log('Basket price:   ' + basketSum());
