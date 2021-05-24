@@ -1,0 +1,151 @@
+.container {
+    margin: 5px 20px 5px;
+}
+
+.links {
+    height: 50px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.top_link {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.top_link:hover {
+    color: black;
+}
+
+#score, #lines {
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 40px;
+}
+
+#block {
+    display: flex;
+}
+
+#board {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dcd6bc;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: 10px solid #dcd6bc;
+    user-select: none;
+} 
+
+#nextFigure {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dcd6bc;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: 10px solid #dcd6bc;
+    user-select: none;
+}
+
+#scoreTable {
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    min-height: 0px;
+    width: 500px;
+    border: 1px solid #000;
+}
+
+#scoreTable div{
+    display: flex;
+    min-height: 50px;
+    width: 500px;
+    background-color: wheat;
+    margin-bottom: 20px;
+    font-size: 20px;
+    align-items: center;
+    padding-left: 25px;
+}
+
+#nextFigure div {
+    height: 40px;
+    width: 40px;
+    font-size: 36px;
+    text-align: center;
+    vertical-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: 5px solid;
+    border-color: #f5f3eb #bab7a9 #bab7a9 #fffd9b
+}
+
+#board div {
+    height: 30px;
+    width: 30px;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 5px solid;
+    border-color: #f5f3eb #bab7a9 #bab7a9 #fffd9b
+}
+
+.closed {
+    background-color: #dcd6bc;
+}
+
+.lFigure {
+    background-color: blue;
+}
+
+.jFigure {
+    background-color: green;
+}
+
+.zFigure {
+    background-color: red;
+}
+
+.sFigure {
+    background-color: orange;
+}
+
+.tFigure {
+    background-color: darkblue;
+}
+
+.oFigure {
+    background-color: darkred;
+}
+
+.iFigure {
+    background-color: darkgreen;
+}
+
+.xFigure {
+    background-color: darkslateblue;
+}
+
+.qFigure {
+    background-color: brown;
+}
+
+.pFigure {
+    background-color: crimson;
+}
+
+.dotFigure {
+    background-color: black;
+}
